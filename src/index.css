@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+th.sort-asc {
+  cursor: pointer;
+}
+
+th.sort-desc {
+  cursor: pointer;
+}
+
+th.sort-asc i,
+th.sort-desc i {
+  font-size: 0.6rem;
+  margin-left: 0.25rem;
+}
